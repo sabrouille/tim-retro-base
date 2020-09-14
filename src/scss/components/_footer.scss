@@ -1,0 +1,15 @@
+.footer-principal{
+  background-color: var(--couleur-noir);
+  text-align: center;
+
+  p{
+    padding: 60px;
+    margin: 0;
+
+    color: var(--couleur-blanc);
+  }
+
+  a:hover{
+    color: var(--couleur-primaire);
+  }
+}

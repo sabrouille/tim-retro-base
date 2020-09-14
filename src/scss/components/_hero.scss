@@ -1,0 +1,54 @@
+.hero{
+  height: 80vh;
+
+  background-color: var(--couleur-noir);
+
+  position: relative;
+
+  video{
+    height: 100%;
+    width: 100%;
+
+    object-fit: cover;
+
+    opacity: 0.5;
+  }
+
+  .content{
+    width: 100%;
+    height: 100%;
+
+    color: var(--couleur-blanc);
+    background: var(--degrade-pricipal);
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  p, a{
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  a:hover{
+     color: var(--couleur-primaire);
+     text-decoration: underline;
+   }
+
+  &::after{
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: 1;
+  }
+}
